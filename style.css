@@ -1,0 +1,41 @@
+.bg-image {
+  width: 100%; /* Largura total da janela de visualização */
+  background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede a repetição da imagem */
+  position: relative; /* Permite que os elementos internos sejam posicionados em relação a este contêiner */
+}
+/* Estilos para o texto sobre a imagem */
+.text-over-image {
+  position: absolute; /* Permite posicionar o texto sobre a imagem */
+  top: 200%; /* Posiciona o elemento no centro verticalmente */
+  left: 50%; /* Posiciona o elemento no centro horizontalmente */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Move o elemento para o centro exato da imagem */
+  color: rgb(19, 18, 18); /* Cor do texto */
+  text-align: center; /* Alinhamento do texto */
+  font-size: 28px;
+}
+text-over-image2 {
+  position: absolute; /* Permite posicionar o texto sobre a imagem */
+  top: 50%; /* Posiciona o elemento no centro verticalmente */
+  left: 50%; /* Posiciona o elemento no centro horizontalmente */
+  transform: translate(-50%, -50%);
+  color: rgb(19, 18, 18); /* Cor do texto */
+  text-align: center; /* Alinhamento do texto */
+  font-size: 20px;
+  width: 80%; /* Limita a largura do texto */
+}
+
+.text-over-image3 {
+  position: absolute; /* Permite posicionar o texto sobre a imagem */
+  top: 50%; /* Posiciona o elemento no centro verticalmente */
+  left: 50%; /* Posiciona o elemento no centro horizontalmente */
+  transform: translate(-50%, -50%);
+  color: rgb(19, 18, 18); /* Cor do texto */
+  text-align: center; /* Alinhamento do texto */
+  font-size: 30px;
+  width: 80%; /* Limita a largura do texto */
+}
