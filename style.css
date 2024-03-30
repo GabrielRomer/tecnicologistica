@@ -51,19 +51,31 @@
   font-size: 2.5rem; /* Tamanho da fonte */
   width: 80%; /* Limita a largura do texto */
 }
+
+/* Estilos responsivos */
 @media screen and (max-width: 768px) {
-  .text-over-image {
+  .text-over-image,
+  .text-over-image2,
+  .text-over-image3 {
     font-size: 1.5rem;
     width: 90%;
   }
+}
 
-  .text-over-image2 {
-    font-size: 1.2rem;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .text-over-image,
+  .text-over-image2,
+  .text-over-image3 {
+    font-size: 1.5rem;
     width: 90%;
   }
+}
 
+@media screen and (min-width: 1025px) {
+  .text-over-image,
+  .text-over-image2,
   .text-over-image3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 90%;
   }
 }
