@@ -1,3 +1,4 @@
+/* Estilos para a imagem de fundo */
 .bg-image {
   width: 100%; /* Largura total da janela de visualização */
   background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
@@ -5,6 +6,7 @@
   background-repeat: no-repeat; /* Impede a repetição da imagem */
   position: relative; /* Permite que os elementos internos sejam posicionados em relação a este contêiner */
 }
+
 /* Estilos para o texto sobre a imagem */
 .text-over-image {
   position: absolute; /* Permite posicionar o texto sobre a imagem */
@@ -14,28 +16,38 @@
     -50%,
     -50%
   ); /* Move o elemento para o centro exato da imagem */
-  color: rgb(19, 18, 18); /* Cor do texto */
+  color: #0a0505; /* Cor do texto */
   text-align: center; /* Alinhamento do texto */
-  font-size: 28px;
-}
-text-over-image2 {
-  position: absolute; /* Permite posicionar o texto sobre a imagem */
-  top: 50%; /* Posiciona o elemento no centro verticalmente */
-  left: 50%; /* Posiciona o elemento no centro horizontalmente */
-  transform: translate(-50%, -50%);
-  color: rgb(19, 18, 18); /* Cor do texto */
-  text-align: center; /* Alinhamento do texto */
-  font-size: 20px;
+  font-size: 2rem; /* Tamanho da fonte */
   width: 80%; /* Limita a largura do texto */
 }
 
+/* Estilos para o segundo texto sobre a imagem */
+.text-over-image2 {
+  position: absolute; /* Permite posicionar o texto sobre a imagem */
+  top: 230%; /* Posiciona o elemento 60% abaixo do topo da imagem */
+  left: 50%; /* Posiciona o elemento no centro horizontalmente */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Move o elemento para o centro exato da imagem */
+  color: #0a0505; /* Cor do texto */
+  text-align: center; /* Alinhamento do texto */
+  font-size: 1.5rem; /* Tamanho da fonte */
+  width: 80%; /* Limita a largura do texto */
+}
+
+/* Estilos para o terceiro texto sobre a imagem */
 .text-over-image3 {
   position: absolute; /* Permite posicionar o texto sobre a imagem */
-  top: 50%; /* Posiciona o elemento no centro verticalmente */
+  top: 200%; /* Posiciona o elemento 70% abaixo do topo da imagem */
   left: 50%; /* Posiciona o elemento no centro horizontalmente */
-  transform: translate(-50%, -50%);
-  color: rgb(19, 18, 18); /* Cor do texto */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Move o elemento para o centro exato da imagem */
+  color: #0a0505; /* Cor do texto */
   text-align: center; /* Alinhamento do texto */
-  font-size: 30px;
+  font-size: 2.5rem; /* Tamanho da fonte */
   width: 80%; /* Limita a largura do texto */
 }
