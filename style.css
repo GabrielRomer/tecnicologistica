@@ -51,3 +51,19 @@
   font-size: 2.5rem; /* Tamanho da fonte */
   width: 80%; /* Limita a largura do texto */
 }
+@media screen and (max-width: 768px) {
+  .text-over-image {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  .text-over-image2 {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+
+  .text-over-image3 {
+    font-size: 2rem;
+    width: 90%;
+  }
+}
